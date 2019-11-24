@@ -15,7 +15,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\mak\\workspace\\pratice
 	driver.get("https://google.com");
 	
 	driver.switchTo().window(null);
-	
+	System.out.println(driver.getTitle());
 	}
 
 }
