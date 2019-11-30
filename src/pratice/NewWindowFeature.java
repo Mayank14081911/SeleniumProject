@@ -17,9 +17,6 @@ public class NewWindowFeature {
 		driver.switchTo().window(null);
 		System.out.println(driver.getTitle());
 		
-		//this is my fifth commit
-		//this is my third commit
-		
 		//this is my forth commit
 	}
 
